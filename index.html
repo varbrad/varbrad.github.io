@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>varbrad</title>
+    <style>
+      html, body, .app {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+
+      .app {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+      }
+
+      .app > .profile-link {
+        transition: color 300ms ease-out;
+        font-size: 3rem;
+        text-decoration: none;
+        color: #2E72CA;
+        font-family: sans-serif;
+        font-weight: bold;
+      }
+
+      .app > .profile-link:hover {
+        color: #CA722E;
+        text-decoration: underline;
+      }
+
+      .app > .octocat {
+        width: 70vmin;
+        height: 70vmin;
+      }
+
+      .app > .source {
+        color: #7d7d7d;
+        font-style: italic;
+      }
+
+      .app > .source > .image-source {
+        font-weight: bold;
+        color: #7d7d7d;
+        text-decoration: none;
+      }
+
+      .app > .source > .image-source:hover {
+        color: #2E72CA;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="app">
+      <a class="profile-link" href="https://github.com/varbrad">varbrad</a>
+      <img class="octocat" src="https://octodex.github.com/images/steroidtocat.png" alt="Steroid Octocat">
+      <p class="source">Image by <a class="image-source" href="https://github.com/jeejkang">jeejkang</a></p>
+    </div>
+  </body>
+</html>
