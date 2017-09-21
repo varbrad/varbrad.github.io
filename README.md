@@ -1,1 +1,0 @@
-# varbrad.github.io
